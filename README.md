@@ -1,6 +1,6 @@
 slstatus - suckless status
 ==========================
-n9mi's personal slstatus
+n9mi's personal slstatus build
 
 Features
 --------
