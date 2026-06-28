@@ -41,13 +41,26 @@ In order to build slstatus you need the Xlib header files.
 
 Installation
 ------------
+For fresh install Debian/others users, please install
+```
+sudo apt update
+sudo apt install -y \
+    network-manager \
+    pulseaudio-utils \
+    brightnessctl \
+    gawk \
+    coreutils
+```
+
 Edit config.mk to match your local setup (slstatus is installed into the
 /usr/local namespace by default).
 
 Afterwards enter the following command to build and install slstatus (if
 necessary as root):
 
-    make clean install
+```
+make clean install
+```
 
 For LightDM users, add this on `.xsessionrc`
 ```sh
