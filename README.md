@@ -49,6 +49,11 @@ necessary as root):
 
     make clean install
 
+For LightDM users, add this on `.xsessionrc`
+```sh
+#!/bin/sh
+slstatus &
+```
 
 Running slstatus
 ----------------
